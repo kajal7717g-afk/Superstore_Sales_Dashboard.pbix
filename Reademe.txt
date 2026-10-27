@@ -1,0 +1,43 @@
+# Superstore Sales Analysis Dashboard
+
+## Project Overview
+
+This project transforms raw Superstore sales data into an interactive Power BI dashboard for analyzing sales performance, profitability, regional performance, and product trends.
+
+## Objectives
+
+- Analyze total sales and profit
+- Track total orders and profit margin
+- Analyze monthly sales trends
+- Compare regional performance
+- Analyze category and sub-category performance
+- Identify profitable and less profitable products
+- Provide interactive filtering using date, region, and category slicers
+
+## Tools Used
+
+- Power BI Desktop
+- DAX
+- Power Query
+- Microsoft Excel / CSV
+
+## Key Dashboard Features
+
+- Total Sales KPI
+- Total Profit KPI
+- Total Orders KPI
+- Profit Margin KPI
+- Monthly Sales Trend
+- Regional Sales Analysis
+- Category and Sub-Category Treemap
+- Product Profitability Matrix
+- Date Slicer
+- Region Slicer
+- Category Slicer
+
+## DAX Measures
+
+### Total Sales
+
+```DAX
+Total Sales = SUM(superstore_sales[Sales])
